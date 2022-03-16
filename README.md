@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-You can run the commands below to train our model on Snopes Dataset.
+You can run the commands below to train and test our model on Snopes Dataset.
 
 ```
 python MasterFC/master_get.py --dataset="Snopes" \
@@ -51,7 +51,7 @@ sh run_snopes.sh
 ```
 or
 ``` 
-sh run_politifact.sh
+sh run_politifact.sh (on the PolitiFact dataset)
 ```
 
 ## Citation
