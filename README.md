@@ -19,10 +19,10 @@ pip install -r requirements.txt
 
 ## Usage
 
-You can run the commands below to train our model on Snopes Dataset.
+You can run the commands below to train and test our model on Snopes Dataset.
 
 ```
-python MasterFC/master_mac.py --dataset="Snopes" \
+python MasterFC/master_get.py --dataset="Snopes" \
                              --cuda=1 \
                              --fixed_length_left=30 \
                              --fixed_length_right=100 \
@@ -37,7 +37,7 @@ python MasterFC/master_mac.py --dataset="Snopes" \
                              --epochs=100 \
                              --num_att_heads_for_words=5 \
                              --num_att_heads_for_evds=2 \
-                             --gnn_window_size=3 \
+                             --gnn_window_size=2 \
                              --lr=0.0001 \
                              --gnn_dropout=0.2 \
                              --seed=123756 \
@@ -49,9 +49,7 @@ You can also simply run the bash script.
 ```
 sh run_snopes.sh
 ```
-
 or
-
 ``` 
 sh run_politifact.sh (on the PolitiFact dataset)
 ```
@@ -69,9 +67,8 @@ Please cite our paper if you use the code:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+
 ```
 
-## Acknowledgment
-
-The general structure of our codes inherits from the open-source codes of [MAC](https://github.com/nguyenvo09/EACL2021), we thank them for their great contribution to the research community of fake news detection.
-
+## Acknowledgement
+The general structure of our codes inherites from the open-source codes of [MAC](https://github.com/nguyenvo09/EACL2021), we thank them for their great contribution to the research community of fake news detection.
