@@ -1,4 +1,4 @@
-python MasterFC/master_mac.py --dataset="Snopes" \
+python MasterFC/master_get.py --dataset="Snopes" \
                              --cuda=1 \
                              --fixed_length_left=30 \
                              --fixed_length_right=100 \
