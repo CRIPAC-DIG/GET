@@ -1,4 +1,4 @@
-python MasterFC/master_mac.py --dataset="PolitiFact" \
+python MasterFC/master_get.py --dataset="PolitiFact" \
                              --cuda=1 \
                              --fixed_length_left=30 \
                              --fixed_length_right=100 \
@@ -13,7 +13,7 @@ python MasterFC/master_mac.py --dataset="PolitiFact" \
                              --epochs=100 \
                              --num_att_heads_for_words=3 \
                              --num_att_heads_for_evds=1 \
-                             --gnn_window_size=2 \
+                             --gnn_window_size=3 \
                              --lr=0.0001 \
                              --gnn_dropout=0.2 \
                              --seed=123456 \

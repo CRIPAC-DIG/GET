@@ -1,4 +1,4 @@
-python MasterFC/master_mac.py --dataset="Snopes" \
+python MasterFC/master_get.py --dataset="Snopes" \
                              --cuda=1 \
                              --fixed_length_left=30 \
                              --fixed_length_right=100 \
@@ -13,7 +13,7 @@ python MasterFC/master_mac.py --dataset="Snopes" \
                              --epochs=100 \
                              --num_att_heads_for_words=5 \
                              --num_att_heads_for_evds=2 \
-                             --gnn_window_size=2 \
+                             --gnn_window_size=3 \
                              --lr=0.0001 \
                              --gnn_dropout=0.2 \
                              --seed=123756 \
