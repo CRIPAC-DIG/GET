@@ -67,6 +67,6 @@ Please cite our paper if you use the code:
 }
 ```
 
-### Acknowledge
+## Acknowledge
 
 The general structure of our codes inherites from the open-source codes of [MAC](https://github.com/nguyenvo09/EACL2021), we thank them for their great contribution to the research community of fake news detection.
